@@ -1,0 +1,26 @@
+{
+    "Layout" : {
+        "Footer": {
+            "1": "Select Language"
+        },
+
+        "Nav" : {
+            "1": "Home",
+            "2": "Page",
+            "3": "Features",
+            "4": "Services",
+            "5": "Blog",
+            "6": "Contact",
+            "7": "Search"
+
+        },
+
+            "Page1": {
+               "1": "ID",
+               "2": "Contact Name",
+               "3": "Contact Email",
+               "4": "Contact Description",
+               "5": "CREATE CONTACT",
+               "6": "Work and play virtually anywhere. With tablet-to-laptop versatility and better connectivity"
+            }
+}}

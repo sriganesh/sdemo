@@ -1,0 +1,27 @@
+{
+    "Layout" : {
+        "Footer": {
+            "1": "Choisir la langue"
+        },
+
+        "Nav" : {
+            "1": "Accueil",
+            "2": "Page",
+            "3": "caractéristiques",
+            "4": "Prestations de service",
+            "5": "Blog",
+            "6": "Contact",
+            "7": "Chercher"
+
+        },
+
+
+            "Page1": {
+               "1": "ID",
+               "2": "Nom du contact",
+               "3": "Email du contact",
+               "4": "Description du contact",
+               "5": "Créer un contact",
+               "6": "Travaillez et jouez pratiquement n'importe où. Avec la polyvalence tablette-ordinateur portable et une meilleure connectivité"
+            }
+}}

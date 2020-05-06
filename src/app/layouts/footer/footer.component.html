@@ -1,0 +1,36 @@
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+
+      <!--Footer links-->
+  <div class="container-fluid">
+    <div class="row"><br><br><br><br></div></div>
+
+
+    
+  
+
+  <div class="footer-copyright">
+
+  <div class="container d-md-flex py-4 ">
+
+    <div class="mr-md-auto text-center text-md-left">
+      <div class="copyright">
+        Crafted by <a href="#">SriZ</a> &copy; Copyright <strong><span>DIT</span></strong>. All Rights Reserved       
+      </div>
+    </div>
+    <div class="language text-center text-md-right pt-3 pt-md-0">
+      <select #lang class="form-control form-control-sm" (change)="translate.use(lang.value)">
+        <option selected disabled>
+          {{ 'Layout.Footer.1' | translate }}
+        </option>
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+
+
+
+  </footer>
+  <!--/.Footer-->

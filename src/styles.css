@@ -1,0 +1,216 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+       main {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .extra-margins {
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .jumbotron {
+        text-align: center;
+    }
+
+    .navbar {
+        background-color: #88BDBC !important;
+    }
+/*88BDBC*/
+    footer.page-footer {
+        background-color: #303e48 !important;
+        margin-top: 2rem;
+    }
+    .nav-item{
+        width: 120px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .navbar .btn-group .dropdown-menu a:hover {
+        color: #000 !important;
+    }
+    .navbar .btn-group .dropdown-menu a:active {
+        color: #fff !important;
+    }
+	.btn-outline-unique {
+		color: #254E58 !important;
+		background-color: transparent !important;
+		border: 2px solid #254E58 !important;
+	}
+    .btn-unique {
+		color: #fff!important;
+		background-color: #254E58 !important;
+		padding-top: .7rem!important;
+		padding-bottom: .7rem!important;
+	}
+	.logo {
+		width: 150px;
+		padding: 20px 0;
+	}
+
+	.scard {
+		box-sizing: content-box;
+		padding: 40px;
+		box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+		position: relative;
+		background: #fff;
+	}
+	.navbar-nav a:hover {
+    background-color: rgba(255,255,255,0.1);
+	}
+
+	 .navbar-nav li > a {
+		text-transform: capitalize;
+		color: #333;
+		transition: background-color .2s, color .2s;
+	}
+
+	.navbar-nav a:active {
+		background-color: #333;
+		color: #fff;
+	}
+	#top {		
+		background-color: #61aaa9;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	}
+
+
+	.footer {
+	 bottom: 0;
+	 padding: 19px 15px 20px;
+	 position: absolute;
+	 right: 0;
+	 color: red;
+	 left: 0;
+	 background-color: #fff;
+}
+ .footer .footer-links a {
+	 color: red;
+	 margin-left: 1.5rem;
+	 transition: all 0.4s;
+}
+ .footer .footer-links a:hover {
+	 color: yellow;
+}
+ .footer .footer-links a:first-of-type {
+	 margin-left: 0;
+}
+ .footer-alt {
+	 left: 0 !important;
+	 text-align: center;
+	 background-color: transparent;
+}
+ 
+ 
+ 
+ .form-control-sm {
+  float: right;
+  clear: both;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #adb5bd;
+    background-color: #3b4452;
+    background-clip: padding-box;
+    border: 1px solid #434e5e;
+    border-radius: 0.2rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.f1{
+	
+}
+.f2{
+
+}
+select {
+    word-wrap: normal;
+}
+
+
+.clearfix::after,
+.calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.calendar {
+  border-radius: 10px;
+}
+
+.month {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  .month {
+    font-size: 3.5rem;
+  }
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .day-names {
+  border-bottom: 1px solid #eee;
+}
+
+.calendar .day-names li {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+  border-bottom: 1px solid #eee;
+  min-height: 8rem;
+}
+
+.calendar .days li .date {
+  margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+  font-size: 0.75rem;
+  padding: 0.4rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+  width: 200%;
+}
+
+.calendar .days li .event.begin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+  background: none;
+}
+
+.new {
+  min-height: 100vh;
+  background-color: #3ca55c;
+  background-image: linear-gradient(147deg, #3ca55c 0%, #b5ac49 100%);
+}

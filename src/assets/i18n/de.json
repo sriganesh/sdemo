@@ -1,0 +1,27 @@
+{
+    "Layout" : {
+        "Footer": {
+            "1": "Sprache auswählen"
+        },
+
+        "Nav" : {
+            "1": "Zuhause",
+            "2": "Seite",
+            "3": "Eigenschaften",
+            "4": "dienstleistungen",
+            "5": "Blog",
+            "6": "Kontakt",
+            "7": "Suche"
+
+        },
+
+
+            "Page1": {
+               "1": "Ich würde",
+               "2": "Kontaktname",
+               "3": "Kontakt E-mail",
+               "4": "Kontaktbeschreibung",
+               "5": "Kontakt erstellen",
+               "6": "Praktisch überall arbeiten und spielen. Mit Vielseitigkeit von Tablet zu Laptop und besserer Konnektivität"
+            }
+}}
